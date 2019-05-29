@@ -1,0 +1,103 @@
+from time import sleep #time to sleep
+from datetime import datetime
+import math
+tim=datetime.now()
+print("The Date & Time Is:", tim,end=' ')
+sleep(0.01)
+print("\n")
+for i in "THE CURRENCY CONVERTER":
+    print(i,end=' ')
+    sleep(0.08)
+print(" \n")
+while True:
+    try:
+        def ind(a):
+            return a*69.61 #returns the value of function
+        k=ind(float(input("enter the American dollar number to convert:")))#calling the function 
+        print("the indian value is:",math.trunc(k))#prints the called function along with precision values
+        sleep(1) #sleeps for 2sec and prints next
+    except:
+        print("\n")
+        print("WTF!! Enter Only Numbers..")
+        print(" ")
+        continue
+    break
+
+print(" ")#extra white space
+
+while True:
+    try:
+        def ind1(b):
+            return b*88.30
+        c=ind1(float(input("enter the   Britain's Pounds number to convert:")))
+        print("the indian value is:",math.trunc(c))
+        sleep(1)
+    except:
+        print("\n")
+        print("WTF!! Enter Only Numbers..")
+        print(" ")
+        continue
+    break
+        
+
+print(" ")
+
+while True:
+    try:
+
+        def ind2(c):
+            return c*10.8
+        d=ind2(float(input("enter the Chinese Yuan's  number to convert:")))
+        print("the indian value is:",math.trunc(d))
+        sleep(1)
+    except:
+        print("\n")
+        print("WTF!! Enter Only Numbers..")
+        print(" ")
+        continue
+    break
+
+print(" ")
+
+while True:
+    try:
+
+        def ind3(d):
+            return d*48.27
+        e=ind3(float(input("enter the Australian Dollar  number to convert:")))
+        print("the indian value is:",math.trunc(e))
+        sleep(1)
+    except:
+        print("\n")
+        print("WTF!! Enter Only Numbers..")
+        print(" ")
+        continue
+    break
+print(" ")
+
+while True:
+    try:
+        def ind4(e):
+            return e*50.60
+        f=ind4(float(input("enter the SingaPore's DOllar  number to convert:")))
+        print("the indian value is:",math.trunc(f))
+        sleep(1)
+    except:
+        print("\n")
+        print("WTF!! Enter Only Numbers..")
+        print(" ")
+        continue
+    break
+
+print(" ")
+
+for j in "THANKYOU FOR USING CHAITANYA'S IDEA!!!":
+    print(j,end=' ')
+    sleep(0.08)
+
+
+
+
+
+
+
